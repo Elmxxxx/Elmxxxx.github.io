@@ -2,10 +2,10 @@ let myImage = document.querySelector("img");
 
 myImage.onclick = function () {
   let mySrc = myImage.getAttribute("src");
-  if (mySrc === "images\\wallhaven-vg3k1m.jpg") {
-    myImage.setAttribute("src", "images\\wallhaven-6o581l.jpg");
+  if (mySrc === "images\\imamg1.png") {
+    myImage.setAttribute("src", "images\\image2.png");
   } else {
-    myImage.setAttribute("src", "images\\wallhaven-vg3k1m.jpg");
+    myImage.setAttribute("src", "images\\imamg1.png");
   }
 };
 
